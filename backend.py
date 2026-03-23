@@ -21,7 +21,7 @@ allowed_origins = [
     "http://localhost:5173",
     "http://localhost:3000",
     "http://localhost:4173",
-    "https://rice-disease-detection-system-dool.vercel.app/",
+    "https://rice-disease-detection-system-dool.vercel.app",
     # Add your deployed frontend URLs here
     os.getenv("FRONTEND_URL", ""),
 ]
